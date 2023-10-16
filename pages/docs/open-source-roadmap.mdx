@@ -17,7 +17,7 @@ name: "Open Source Roadmap"
   - Step 2
   - What is Open Source and why you should care? It is not just about code! It can really help you accelerate your career.
 
-- <Link href="/docs/open-source-roadmap/where">[**Where?**]<Link>
+- <Link href="/docs/open-source-roadmap/where">[**Where?**]</Link>
   - Step 3
   - How to find good projects? There are a lot of projects out there, but how do you find the right one for you.
 
@@ -41,9 +41,13 @@ name: "Open Source Roadmap"
   - Step 8
   - It doesn't stop there! You can review other people's changes and become a maintainer.
 
-    <DocsLayout
-        title="Open Source Roadmap"
-        section="Contributing"
-        name="Open Source Roadmap"
-        >
-    </DocsLayout>
+export default ({ children }) => {
+<DocsLayout
+  title="Open Source Roadmap"
+  section="Contributing"
+  name="Open Source Roadmap"
+  >
+    {children}
+</DocsLayout>
+};
+
